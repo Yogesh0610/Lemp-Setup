@@ -28,17 +28,17 @@ This script automates the setup of a **LEMP** (Linux, Nginx, MariaDB, PHP) serve
 
 2. **Set Execute Permissions**:
    ```bash
-   chmod +x setup_lemp_enhanced.sh
+   chmod +x lemp_setup.sh
    ```
 
 3. **Run the Script**:
    ```bash
-   sudo bash setup_lemp_enhanced.sh
+   sudo bash lemp_setup.sh
    ```
 
 ## Usage
 1. **Run the Script**:
-   - Execute the script as root (`sudo bash setup_lemp_enhanced.sh`).
+   - Execute the script as root (`sudo bash lemp_setup.sh`).
    - Follow the interactive prompts:
      - **Domain Name**: Enter your domain (e.g., `example.com`).
      - **PHP Version**: Select a PHP version (e.g., 8.1) or keep the default.
